@@ -1,0 +1,72 @@
+:root{
+    --main-color: #04aa6d ;
+    --main-color-alt: #44e3a9;
+}
+.heading{
+    color:var(--main-color) ;
+    font-weight: bold;
+}
+.loader{
+    height: 50vh;
+}
+
+.btn-primary{
+    background-color: var(--main-color) !important ;
+    border-color: var(--main-color) !important;
+}
+
+.btn-info{
+    background-color: var(--main-color-alt) !important ;
+    border-color: var(--main-color-alt) !important;
+    outline: none;
+}
+
+.products .card{
+    
+    border-radius: 8px !important;
+    border: 1px solid rgba(0, 0, 0, .125);
+    transition: .3s;
+}
+
+.products .card:hover{
+    transform: translateY(-12px);
+    border: 1px solid var(--main-color-alt) !important;
+}
+
+
+
+.products .card-text{
+    display: none;
+}
+
+.products .card-img, 
+.products .card-img-bottom,
+ .products .card-img-top {
+    max-width: 60%;
+    margin: 10px auto;
+    width: 128px;
+    height: 163px;
+}
+
+.products .card-title {
+    color: var(--main-color);
+    display: -webkit-box; 
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+  }
+
+  .products span{
+    color: var(--main-color);
+    font-weight: bold;
+  }
+
+  .card-body .btn-primary{
+    transition: .3s;
+  }
+
+  .card-body .btn-primary:hover{
+    transform: scale(1.05) translateY(-5px);
+    
+  }

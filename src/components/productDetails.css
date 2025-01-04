@@ -1,0 +1,32 @@
+.loader{
+    height: 80vh;
+}
+@media (max-width:600px){
+   
+    .productDetails .card-img-top {
+        width: 50%;
+        margin: 10px auto;
+    }
+}
+
+@media (min-width:601px){
+   
+    .productDetails .card-img-top {
+        width: 20%;
+        margin: 10px auto;
+    }
+}
+
+.productDetails .card-title ,
+.productDetails span{
+    color: #04aa6d !important;
+}
+
+.productDetails .card-text{
+    color: rgb(112, 111, 111) !important;
+}
+
+.productDetails span{
+font-weight: bold;
+}
+
