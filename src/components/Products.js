@@ -61,7 +61,7 @@ const getSpecificCategory = (catName) => {
         
        
 
-    } , []) //to avoid infinite loop
+    } , []) 
 
     if(loading){
         return (
