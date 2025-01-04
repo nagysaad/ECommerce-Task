@@ -1,3 +1,4 @@
+Live Demo : https://nagysaad.github.io/ECommerce-Task/
 
 Overview :
 This is a fully responsive E-commerce application built with React. The app fetches product data from the Fakestore API and provides a seamless shopping experience across all screen sizes. Users can browse products, view detailed information, and filter items by category for easier navigation.
