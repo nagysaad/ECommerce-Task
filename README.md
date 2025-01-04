@@ -20,5 +20,6 @@ How to Run the Project :
 2-Navigate to the project directory => cd ECommerce-Task
 3-Install dependencies => npm install
 4-Start the development server => npm start
+
 5-Open the app in your browser at http://localhost:3000
 
